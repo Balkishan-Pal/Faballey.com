@@ -23,7 +23,11 @@ function Navbar1(){
          <div id="track-n-bag-div">
              <span> Track Order | </span>
              <span>Gift Card | </span>
-             <span> User Name  | </span>
+             <span> <select>
+                  <option value="login">Login</option>
+                  <option value="logout">Logout</option>
+               </select> </span>
+             
              
               <span id ="heartimage"> <img src={Heart}></img>  </span>
              <span> | </span>
